@@ -1,6 +1,6 @@
 {
-    "name": "mangdin/thinkphp5.1-weixinpay",
-    "description": "thinkphp5.1 微信扫码支付",
+    "name": "mangdin/thinkphp5.1-alipay",
+    "description": "thinkphp5.1 支付宝扫码支付",
     "keywords": [
       "mangdin",
       "thinkphp5.1",
