@@ -4,7 +4,8 @@ thinkphp5.1 支付宝
 将根目录的aliyun_dysms.php拷贝到config目录
 
 示例代码：
-    /**
+<pre>    
+/**
      * 阿里云 大于短信 发送接口
      * @param $mobile 手机号码
      * @param $signname 签名
@@ -31,3 +32,4 @@ thinkphp5.1 支付宝
             return json(['code'=>500,'icon'=>5,'msg'=>$msg['Message']]);
         }
     }
+    </pre>
