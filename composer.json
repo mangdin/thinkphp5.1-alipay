@@ -17,7 +17,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-          "mangdin\\weixinpay\\": ""
+          "mangdin\\alipay\\": ""
         }
       }
 }
