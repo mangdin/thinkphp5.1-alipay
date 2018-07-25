@@ -41,8 +41,8 @@ thinkphp5.1 支付宝
     }
     </pre>
     
-    调用支付控制器代码:
-    <pre>
+   调用支付控制器代码：
+   <pre>
     /**
      * 支付宝PC扫码支付
      * @param $orderid  订单ID
@@ -58,8 +58,8 @@ thinkphp5.1 支付宝
     }
     </pre>
     
-    支付回调控制器代码：
-    <pre>
+   支付回调控制器代码：
+   <pre>
     /**
      * return_url接收页面
      */
@@ -70,8 +70,7 @@ thinkphp5.1 支付宝
         // 验证支付数据
         $status=$notify->verifyReturn();
         if($status){
-            // 下面写验证通过的逻辑 比如说更改订单状态等等 $_GET['out_trade_no'] 为订单号；
-           
+            //下面写验证通过的逻辑 比如说更改订单状态等等 $_GET['out_trade_no'] 为订单号；
             $this->success('支付成功',url('index/user/order'));
         }else{
             $this->success('支付失败',url('index/user/order'));
