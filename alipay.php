@@ -9,7 +9,7 @@
 return  [
     //支付宝即时到帐接口信息
     'partner' =>   '',
-    'seller_email'  =>  '@sina.cn',
+    'seller_email'  =>  '',
     'key' => '',
     'sign_type' => 'MD5',
     'transport' => 'http'
